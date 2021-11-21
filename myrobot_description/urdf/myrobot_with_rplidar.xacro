@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="myrobot">
+<xacro:include filename="$(find myrobot_description)/urdf/myrobot_body.xacro" />
+<xacro:include filename="$(find myrobot_description)/urdf/rplidar.xacro" />
+
+<xacro:myrobot_body/>
+
+<joint name="laser_joint" type="fixed">
+  <origin xyz="0 0 0.21" />
+  <parent link="head"/>
+  <child link="laser_link"/>
+</joint>
+
+<xacro:rplidar prefix="laser"/>
+
+</robot>

@@ -1,0 +1,36 @@
+<launch>
+  <arg name="model" default="$(find myrobot_gazebo)/urdf/myrobot_move.urdf.xacro"/>
+  <arg name="rvizconfig" default="$(find myrobot_gazebo)/rviz/urdf.rviz" />
+
+  <include file="$(find myrobot_gazebo)/launch/view_myrobot_gazebo.launch">
+    <arg name="model" value="$(arg model)" />
+  </include>
+
+  <node name="joint_state_publisher" pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" />
+
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rvizconfig)" />
+
+  <rosparam command="load"
+            file="$(find myrobot_gazebo)/config/joints.yaml"
+            ns="r2d2_joint_state_controller" />
+  <rosparam command="load"
+            file="$(find myrobot_gazebo)/config/head.yaml"
+            ns="r2d2_head_controller" />
+  <rosparam command="load"
+            file="$(find myrobot_gazebo)/config/gripper.yaml"
+            ns="r2d2_gripper_controller" />
+  <rosparam command="load"
+            file="$(find myrobot_gazebo)/config/diffdrive.yaml"
+            ns="r2d2_diff_drive_controller" />
+
+  <node name="r2d2_controller_spawner" pkg="controller_manager" type="spawner"
+    args="r2d2_joint_state_controller
+          r2d2_head_controller
+          r2d2_gripper_controller
+          r2d2_diff_drive_controller
+          --shutdown-timeout 3"/>
+
+  <node name="rqt_robot_steering" pkg="rqt_robot_steering" type="rqt_robot_steering">
+    <param name="default_topic" value="/r2d2_diff_drive_controller/cmd_vel"/>
+  </node>
+</launch>

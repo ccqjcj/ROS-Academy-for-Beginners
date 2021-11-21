@@ -1,0 +1,50 @@
+digraph G {
+node [shape=box];
+"base_link" [label="base_link"];
+"left_leg" [label="left_leg"];
+"left_base" [label="left_base"];
+"left_back_wheel" [label="left_back_wheel"];
+"left_front_wheel" [label="left_front_wheel"];
+"right_leg" [label="right_leg"];
+"right_base" [label="right_base"];
+"right_back_wheel" [label="right_back_wheel"];
+"right_front_wheel" [label="right_front_wheel"];
+"gripper_pole" [label="gripper_pole"];
+"left_gripper" [label="left_gripper"];
+"left_tip" [label="left_tip"];
+"right_gripper" [label="right_gripper"];
+"right_tip" [label="right_tip"];
+"head" [label="head"];
+"box" [label="box"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+"base_link" -> "base_to_left_leg" [label="xyz: 0 0.22 0.25 \nrpy: 0 -0 0"]
+"base_to_left_leg" -> "left_leg"
+"left_leg" -> "left_base_joint" [label="xyz: 0 0 -0.6 \nrpy: 0 -0 0"]
+"left_base_joint" -> "left_base"
+"left_base" -> "left_back_wheel_joint" [label="xyz: -0.133333 0 -0.085 \nrpy: 0 -0 0"]
+"left_back_wheel_joint" -> "left_back_wheel"
+"left_base" -> "left_front_wheel_joint" [label="xyz: 0.133333 0 -0.085 \nrpy: 0 -0 0"]
+"left_front_wheel_joint" -> "left_front_wheel"
+"base_link" -> "base_to_right_leg" [label="xyz: 0 -0.22 0.25 \nrpy: 0 -0 0"]
+"base_to_right_leg" -> "right_leg"
+"right_leg" -> "right_base_joint" [label="xyz: 0 0 -0.6 \nrpy: 0 -0 0"]
+"right_base_joint" -> "right_base"
+"right_base" -> "right_back_wheel_joint" [label="xyz: -0.133333 0 -0.085 \nrpy: 0 -0 0"]
+"right_back_wheel_joint" -> "right_back_wheel"
+"right_base" -> "right_front_wheel_joint" [label="xyz: 0.133333 0 -0.085 \nrpy: 0 -0 0"]
+"right_front_wheel_joint" -> "right_front_wheel"
+"base_link" -> "gripper_extension" [label="xyz: 0.19 0 0.2 \nrpy: 0 -0 0"]
+"gripper_extension" -> "gripper_pole"
+"gripper_pole" -> "left_gripper_joint" [label="xyz: 0.2 0.01 0 \nrpy: 0 -0 0"]
+"left_gripper_joint" -> "left_gripper"
+"left_gripper" -> "left_tip_joint" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"left_tip_joint" -> "left_tip"
+"gripper_pole" -> "right_gripper_joint" [label="xyz: 0.2 -0.01 0 \nrpy: 0 -0 0"]
+"right_gripper_joint" -> "right_gripper"
+"right_gripper" -> "right_tip_joint" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"right_tip_joint" -> "right_tip"
+"base_link" -> "head_swivel" [label="xyz: 0 0 0.3 \nrpy: 0 -0 0"]
+"head_swivel" -> "head"
+"head" -> "tobox" [label="xyz: 0.15 0 0.11 \nrpy: 0 -0 0"]
+"tobox" -> "box"
+}

@@ -1,0 +1,17 @@
+============================================================
+Time  2021/12/01 10:20:44 225 
+============================================================
+[2021/12/01 10:20:44 225] legacyuup  324  SYS_MSG_LOAD  
+[2021/12/01 10:20:44 225] legacyuup  237  UUP_MSG_START  
+[2021/12/01 10:20:44 225] legacyuup  239  legacyuup  legacyuup_5596fa  268436457  1495165904  
+[2021/12/01 10:20:44 225] legacyuup  282  User set url is   nil  
+[2021/12/01 10:20:44 225] transport  658  paramkvsport is   nil  
+[2021/12/01 10:20:44 225] transport  666  ns_enable=  1  
+[2021/12/01 10:20:44 226] transport  710  url.full=  nil  
+[2021/12/01 10:20:44 226] transport  887  switch 80  
+[2021/12/01 10:20:44 226] transport  898  net type:  standard  
+[2021/12/01 10:20:44 226] transport  899  net operator:  def  
+[2021/12/01 10:20:44 226] transport  900  use proxy:  false  
+[2021/12/01 10:20:44 226] legacyuup  299  not login!  
+[2021/12/01 10:20:49 755] legacyuup  313  UUP_MSG_LGI_RESULT  
+[2021/12/01 10:20:49 755] legacyuup  333  SYS_MSG_UNLOAD  

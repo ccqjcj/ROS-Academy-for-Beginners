@@ -1,0 +1,260 @@
+============================================================
+Time  2021/05/13 11:36:08 735 
+============================================================
+[2021/05/13 11:36:08 735] ivw_upload 722  SYS_MSG_LOAD  
+[2021/05/13 11:36:08 736] ivw_upload 781  IVW_UPLOAD_MSG_QUE  
+[2021/05/13 11:36:08 736] ivw_upload 794  ==================== Query Start ====================  
+[2021/05/13 11:36:08 736] ivw_upload 645  try2_query  
+[2021/05/13 11:36:08 736] ivw_upload 653  query_data   {"input":{"appid":"b1d6e287"},"cmd":"uploadquery"}  
+[2021/05/13 11:36:08 736] ivw_upload 665  Do query  
+[2021/05/13 11:36:08 737] ivw_upload 673  compressed data_len:  69  
+[2021/05/13 11:36:08 737] ivw_upload 677  xor data_len:  69  
+[2021/05/13 11:36:08 737] ivw_upload 305  build_httpreq type=  query  
+[2021/05/13 11:36:08 737] ivw_upload 340  unknown  
+[2021/05/13 11:36:08 737] ivw_upload 402  POST /internal/awaken/comm HTTP/1.1
+Host: ins.xfyun.cn
+Connection: Keep-Alive
+Content-Type: application/octet-steam
+Content-Length: 69
+
+å¨QÕÀ,/*Vµ≠QM+/œKVµUM5K6L2µ7P≠“VM…éì„„ °ë°R-“5∑Æ™T4  
+[2021/05/13 11:36:08 737] ivw_upload 408  handle_httpresp type=  query  
+[2021/05/13 11:36:08 737] network    501  gethttpresp  http://ins.xfyun.cn/internal/awaken/comm  nil  
+[2021/05/13 11:36:08 737] network    263  gethostbyname  ins.xfyun.cn  1  
+[2021/05/13 11:36:08 747] network    245  dns resp  0  1  
+[2021/05/13 11:36:08 747] network    487  gethttpresp dns ok  42.62.43.138  
+[2021/05/13 11:36:08 747] network    445  gethttpresp2  42.62.43.138  80  2  
+[2021/05/13 11:36:08 748] network    465  prot_type  tcp  
+[2021/05/13 11:36:08 791] network    350  connected  2  
+[2021/05/13 11:36:08 792] network    353  send ok  211  2  
+[2021/05/13 11:36:08 839] network    362  readable  2  
+[2021/05/13 11:36:08 839] network    366  HTTP/1.1 200 
+Server: iflysec.Herald/1.1
+Date: Thu, 13 May 2021 03:36:09 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: _wafuid=85066381; HttpOnly
+
+86
+{"code":"00000","desc":"ÊàêÂäü","data":"GIwPBwcHBwcHB6xRTclKVrVVLSrPzkhLLitKKq1T1VbNKCpWta1RLUjLScrOKwG1koeFjgICnieiTbKyBwzjUaoxBwcH"}
+0
+
+  
+[2021/05/13 11:36:08 839] ivw_upload 514  http resp  nil  0  udata(64045e58) 
+[2021/05/13 11:36:08 839] ivw_upload 525  {"code":"00000","desc":"ÊàêÂäü","data":"GIwPBwcHBwcHB6xRTclKVrVVLSrPzkhLLitKKq1T1VbNKCpWta1RLUjLScrOKwG1koeFjgICnieiTbKyBwzjUaoxBwcH"}  
+[2021/05/13 11:36:08 840] ivw_upload 557  data_xor len=  70  
+[2021/05/13 11:36:08 841] ivw_upload 418  uncompressed data  {"cmd":"uploadquery","out":{"wakelist":"","appid":""}}  54  
+[2021/05/13 11:36:08 841] ivw_upload 497  query Failed! incorect appid  
+[2021/05/13 11:36:08 841] ivw_upload 57   ==================== Query Finished ====================  
+[2021/05/13 11:36:08 879] ivw_upload 733  SYS_MSG_SHUTDOWN  
+[2021/05/13 11:36:08 879] ivw_upload 610  save no upload data  
+[2021/05/13 11:36:08 879] ivw_upload 622  data size:  0  
+============================================================
+Time  2021/05/13 11:46:02 144 
+============================================================
+[2021/05/13 11:46:02 144] ivw_upload 722  SYS_MSG_LOAD  
+[2021/05/13 11:46:02 145] ivw_upload 781  IVW_UPLOAD_MSG_QUE  
+[2021/05/13 11:46:02 145] ivw_upload 794  ==================== Query Start ====================  
+[2021/05/13 11:46:02 145] ivw_upload 645  try2_query  
+[2021/05/13 11:46:02 145] ivw_upload 653  query_data   {"cmd":"uploadquery","input":{"appid":"b1d6e287"}}  
+[2021/05/13 11:46:02 145] ivw_upload 665  Do query  
+[2021/05/13 11:46:02 147] ivw_upload 673  compressed data_len:  69  
+[2021/05/13 11:46:02 147] ivw_upload 677  xor data_len:  69  
+[2021/05/13 11:46:02 147] ivw_upload 305  build_httpreq type=  query  
+[2021/05/13 11:46:02 148] ivw_upload 340  unknown  
+[2021/05/13 11:46:02 148] ivw_upload 402  POST /internal/awaken/comm HTTP/1.1
+Host: ins.xfyun.cn
+Connection: Keep-Alive
+Content-Type: application/octet-steam
+Content-Length: 69
+
+å¨QM…JVµU-*œŒHK.+J*≠S’VÕÀ,/*Vµ≠QM+/œN °ü¢^ü,“—5•tûÖ4  
+[2021/05/13 11:46:02 148] ivw_upload 408  handle_httpresp type=  query  
+[2021/05/13 11:46:02 148] network    501  gethttpresp  http://ins.xfyun.cn/internal/awaken/comm  nil  
+[2021/05/13 11:46:02 148] network    263  gethostbyname  ins.xfyun.cn  1  
+[2021/05/13 11:46:02 166] network    245  dns resp  0  1  
+[2021/05/13 11:46:02 166] network    487  gethttpresp dns ok  42.62.43.138  
+[2021/05/13 11:46:02 166] network    445  gethttpresp2  42.62.43.138  80  2  
+[2021/05/13 11:46:02 167] network    465  prot_type  tcp  
+[2021/05/13 11:46:02 330] network    350  connected  2  
+[2021/05/13 11:46:02 331] network    353  send ok  211  2  
+[2021/05/13 11:46:02 382] network    362  readable  2  
+[2021/05/13 11:46:02 382] network    366  HTTP/1.1 200 
+Server: iflysec.Herald/1.1
+Date: Thu, 13 May 2021 03:46:52 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: _wafuid=98361132; HttpOnly
+
+86
+{"code":"00000","desc":"ÊàêÂäü","data":"GIwPBwcHBwcHB6xRTclKVrVVLSrPzkhLLitKKq1T1VbNKCpWta1RLUjLScrOKwG1koeFjgICnieiTbKyBwzjUaoxBwcH"}
+0
+
+  
+[2021/05/13 11:46:02 383] ivw_upload 514  http resp  nil  0  udata(c8048a88) 
+[2021/05/13 11:46:02 383] ivw_upload 525  {"code":"00000","desc":"ÊàêÂäü","data":"GIwPBwcHBwcHB6xRTclKVrVVLSrPzkhLLitKKq1T1VbNKCpWta1RLUjLScrOKwG1koeFjgICnieiTbKyBwzjUaoxBwcH"}  
+[2021/05/13 11:46:02 383] ivw_upload 557  data_xor len=  70  
+[2021/05/13 11:46:02 385] ivw_upload 418  uncompressed data  {"cmd":"uploadquery","out":{"wakelist":"","appid":""}}  54  
+[2021/05/13 11:46:02 385] ivw_upload 497  query Failed! incorect appid  
+[2021/05/13 11:46:02 385] ivw_upload 57   ==================== Query Finished ====================  
+[2021/05/13 11:46:31 036] ivw_upload 733  SYS_MSG_SHUTDOWN  
+[2021/05/13 11:46:31 037] ivw_upload 610  save no upload data  
+[2021/05/13 11:46:31 037] ivw_upload 622  data size:  0  
+============================================================
+Time  2021/05/13 11:46:46 895 
+============================================================
+[2021/05/13 11:46:46 895] ivw_upload 722  SYS_MSG_LOAD  
+[2021/05/13 11:46:46 895] ivw_upload 781  IVW_UPLOAD_MSG_QUE  
+[2021/05/13 11:46:46 895] ivw_upload 794  ==================== Query Start ====================  
+[2021/05/13 11:46:46 895] ivw_upload 645  try2_query  
+[2021/05/13 11:46:46 896] ivw_upload 653  query_data   {"input":{"appid":"b1d6e287"},"cmd":"uploadquery"}  
+[2021/05/13 11:46:46 896] ivw_upload 665  Do query  
+[2021/05/13 11:46:46 897] ivw_upload 673  compressed data_len:  69  
+[2021/05/13 11:46:46 897] ivw_upload 677  xor data_len:  69  
+[2021/05/13 11:46:46 897] ivw_upload 305  build_httpreq type=  query  
+[2021/05/13 11:46:46 897] ivw_upload 340  unknown  
+[2021/05/13 11:46:46 898] ivw_upload 402  POST /internal/awaken/comm HTTP/1.1
+Host: ins.xfyun.cn
+Connection: Keep-Alive
+Content-Type: application/octet-steam
+Content-Length: 69
+
+å¨QÕÀ,/*Vµ≠QM+/œKVµUM5K6L2µ7P≠“VM…éì„„ °ë°R-“5∑Æ™T4  
+[2021/05/13 11:46:46 898] ivw_upload 408  handle_httpresp type=  query  
+[2021/05/13 11:46:46 898] network    501  gethttpresp  http://ins.xfyun.cn/internal/awaken/comm  nil  
+[2021/05/13 11:46:46 898] network    263  gethostbyname  ins.xfyun.cn  1  
+[2021/05/13 11:46:46 908] network    245  dns resp  0  1  
+[2021/05/13 11:46:46 909] network    487  gethttpresp dns ok  42.62.43.138  
+[2021/05/13 11:46:46 909] network    445  gethttpresp2  42.62.43.138  80  2  
+[2021/05/13 11:46:46 909] network    465  prot_type  tcp  
+[2021/05/13 11:46:46 950] network    350  connected  2  
+[2021/05/13 11:46:46 952] network    353  send ok  211  2  
+[2021/05/13 11:46:46 992] network    362  readable  2  
+[2021/05/13 11:46:46 992] network    366  HTTP/1.1 200 
+Server: iflysec.Herald/1.1
+Date: Thu, 13 May 2021 03:47:37 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: _wafuid=47262478; HttpOnly
+
+86
+{"code":"00000","desc":"ÊàêÂäü","data":"GIwPBwcHBwcHB6xRTclKVrVVLSrPzkhLLitKKq1T1VbNKCpWta1RLUjLScrOKwG1koeFjgICnieiTbKyBwzjUaoxBwcH"}
+0
+
+  
+[2021/05/13 11:46:46 993] ivw_upload 514  http resp  nil  0  udata(e0048ac8) 
+[2021/05/13 11:46:46 993] ivw_upload 525  {"code":"00000","desc":"ÊàêÂäü","data":"GIwPBwcHBwcHB6xRTclKVrVVLSrPzkhLLitKKq1T1VbNKCpWta1RLUjLScrOKwG1koeFjgICnieiTbKyBwzjUaoxBwcH"}  
+[2021/05/13 11:46:46 994] ivw_upload 557  data_xor len=  70  
+[2021/05/13 11:46:46 996] ivw_upload 418  uncompressed data  {"cmd":"uploadquery","out":{"wakelist":"","appid":""}}  54  
+[2021/05/13 11:46:46 996] ivw_upload 497  query Failed! incorect appid  
+[2021/05/13 11:46:46 996] ivw_upload 57   ==================== Query Finished ====================  
+[2021/05/13 11:47:14 651] ivw_upload 733  SYS_MSG_SHUTDOWN  
+[2021/05/13 11:47:14 651] ivw_upload 610  save no upload data  
+[2021/05/13 11:47:14 651] ivw_upload 622  data size:  0  
+============================================================
+Time  2021/05/13 12:00:00 461 
+============================================================
+[2021/05/13 12:00:00 461] ivw_upload 722  SYS_MSG_LOAD  
+[2021/05/13 12:00:00 462] ivw_upload 781  IVW_UPLOAD_MSG_QUE  
+[2021/05/13 12:00:00 462] ivw_upload 794  ==================== Query Start ====================  
+[2021/05/13 12:00:00 462] ivw_upload 645  try2_query  
+[2021/05/13 12:00:00 462] ivw_upload 653  query_data   {"cmd":"uploadquery","input":{"appid":"b1d6e287"}}  
+[2021/05/13 12:00:00 462] ivw_upload 665  Do query  
+[2021/05/13 12:00:00 463] ivw_upload 673  compressed data_len:  69  
+[2021/05/13 12:00:00 463] ivw_upload 677  xor data_len:  69  
+[2021/05/13 12:00:00 463] ivw_upload 305  build_httpreq type=  query  
+[2021/05/13 12:00:00 463] ivw_upload 340  unknown  
+[2021/05/13 12:00:00 463] ivw_upload 402  POST /internal/awaken/comm HTTP/1.1
+Host: ins.xfyun.cn
+Connection: Keep-Alive
+Content-Type: application/octet-steam
+Content-Length: 69
+
+å¨QM…JVµU-*œŒHK.+J*≠S’VÕÀ,/*Vµ≠QM+/œN °ü¢^ü,“—5•tûÖ4  
+[2021/05/13 12:00:00 463] ivw_upload 408  handle_httpresp type=  query  
+[2021/05/13 12:00:00 463] network    501  gethttpresp  http://ins.xfyun.cn/internal/awaken/comm  nil  
+[2021/05/13 12:00:00 463] network    263  gethostbyname  ins.xfyun.cn  1  
+[2021/05/13 12:00:00 473] network    245  dns resp  0  1  
+[2021/05/13 12:00:00 473] network    487  gethttpresp dns ok  42.62.43.138  
+[2021/05/13 12:00:00 473] network    445  gethttpresp2  42.62.43.138  80  2  
+[2021/05/13 12:00:00 473] network    465  prot_type  tcp  
+[2021/05/13 12:00:00 585] network    350  connected  2  
+[2021/05/13 12:00:00 586] network    353  send ok  211  2  
+[2021/05/13 12:00:00 688] network    362  readable  2  
+[2021/05/13 12:00:00 688] network    366  HTTP/1.1 200 
+Server: iflysec.Herald/1.1
+Date: Thu, 13 May 2021 04:00:13 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: _wafuid=30836802; HttpOnly
+
+86
+{"code":"00000","desc":"ÊàêÂäü","data":"GIwPBwcHBwcHB6xRTclKVrVVLSrPzkhLLitKKq1T1VbNKCpWta1RLUjLScrOKwG1koeFjgICnieiTbKyBwzjUaoxBwcH"}
+0
+
+  
+[2021/05/13 12:00:00 689] ivw_upload 514  http resp  nil  0  udata(6c045fe8) 
+[2021/05/13 12:00:00 689] ivw_upload 525  {"code":"00000","desc":"ÊàêÂäü","data":"GIwPBwcHBwcHB6xRTclKVrVVLSrPzkhLLitKKq1T1VbNKCpWta1RLUjLScrOKwG1koeFjgICnieiTbKyBwzjUaoxBwcH"}  
+[2021/05/13 12:00:00 689] ivw_upload 557  data_xor len=  70  
+[2021/05/13 12:00:00 691] ivw_upload 418  uncompressed data  {"cmd":"uploadquery","out":{"wakelist":"","appid":""}}  54  
+[2021/05/13 12:00:00 691] ivw_upload 497  query Failed! incorect appid  
+[2021/05/13 12:00:00 691] ivw_upload 57   ==================== Query Finished ====================  
+[2021/05/13 12:00:26 763] ivw_upload 733  SYS_MSG_SHUTDOWN  
+[2021/05/13 12:00:26 763] ivw_upload 610  save no upload data  
+[2021/05/13 12:00:26 763] ivw_upload 622  data size:  0  
+============================================================
+Time  2021/05/13 12:19:01 758 
+============================================================
+[2021/05/13 12:19:01 758] ivw_upload 722  SYS_MSG_LOAD  
+[2021/05/13 12:19:01 759] ivw_upload 781  IVW_UPLOAD_MSG_QUE  
+[2021/05/13 12:19:01 759] ivw_upload 794  ==================== Query Start ====================  
+[2021/05/13 12:19:01 759] ivw_upload 645  try2_query  
+[2021/05/13 12:19:01 759] ivw_upload 653  query_data   {"input":{"appid":"593ff61d"},"cmd":"uploadquery"}  
+[2021/05/13 12:19:01 759] ivw_upload 665  Do query  
+[2021/05/13 12:19:01 761] ivw_upload 673  compressed data_len:  69  
+[2021/05/13 12:19:01 761] ivw_upload 677  xor data_len:  69  
+[2021/05/13 12:19:01 761] ivw_upload 305  build_httpreq type=  query  
+[2021/05/13 12:19:01 761] ivw_upload 340  unknown  
+[2021/05/13 12:19:01 761] ivw_upload 402  POST /internal/awaken/comm HTTP/1.1
+Host: ins.xfyun.cn
+Connection: Keep-Alive
+Content-Type: application/octet-steam
+Content-Length: 69
+
+å¨QÕÀ,/*Vµ≠QM+/œKVµU5≤3IL44KV≠“VM…éì„„ °ë°R-“5À6Ÿ4  
+[2021/05/13 12:19:01 761] ivw_upload 408  handle_httpresp type=  query  
+[2021/05/13 12:19:01 761] network    501  gethttpresp  http://ins.xfyun.cn/internal/awaken/comm  nil  
+[2021/05/13 12:19:01 761] network    263  gethostbyname  ins.xfyun.cn  1  
+[2021/05/13 12:19:01 771] network    245  dns resp  0  1  
+[2021/05/13 12:19:01 771] network    487  gethttpresp dns ok  42.62.43.138  
+[2021/05/13 12:19:01 772] network    445  gethttpresp2  42.62.43.138  80  2  
+[2021/05/13 12:19:01 772] network    465  prot_type  tcp  
+[2021/05/13 12:19:01 814] network    350  connected  2  
+[2021/05/13 12:19:01 816] network    353  send ok  211  2  
+[2021/05/13 12:19:01 855] network    362  readable  2  
+[2021/05/13 12:19:01 856] network    366  HTTP/1.1 200 
+Server: iflysec.Herald/1.1
+Date: Thu, 13 May 2021 04:19:01 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: _wafuid=87554852; HttpOnly
+
+86
+{"code":"00000","desc":"ÊàêÂäü","data":"GIwPBwcHBwcHB6xRTclKVrVVLSrPzkhLLitKKq1T1VbNKCpWta1RLUjLScrOKwG1koeFjgICnieiTbKyBwzjUaoxBwcH"}
+0
+
+  
+[2021/05/13 12:19:01 856] ivw_upload 514  http resp  nil  0  udata(44046008) 
+[2021/05/13 12:19:01 856] ivw_upload 525  {"code":"00000","desc":"ÊàêÂäü","data":"GIwPBwcHBwcHB6xRTclKVrVVLSrPzkhLLitKKq1T1VbNKCpWta1RLUjLScrOKwG1koeFjgICnieiTbKyBwzjUaoxBwcH"}  
+[2021/05/13 12:19:01 856] ivw_upload 557  data_xor len=  70  
+[2021/05/13 12:19:01 858] ivw_upload 418  uncompressed data  {"cmd":"uploadquery","out":{"wakelist":"","appid":""}}  54  
+[2021/05/13 12:19:01 858] ivw_upload 497  query Failed! incorect appid  
+[2021/05/13 12:19:01 858] ivw_upload 57   ==================== Query Finished ====================  
+[2021/05/13 12:19:22 467] ivw_upload 733  SYS_MSG_SHUTDOWN  
+[2021/05/13 12:19:22 467] ivw_upload 610  save no upload data  
+[2021/05/13 12:19:22 467] ivw_upload 622  data size:  0  

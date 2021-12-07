@@ -1,0 +1,191 @@
+============================================================
+Time  2021/12/01 10:58:35 236 
+============================================================
+[2021/12/01 10:58:35 236] isr_1conn  2208 SYS_MSG_LOAD_CLOUD  
+[2021/12/01 10:58:35 236] isr_1conn  2229 SYS_MSG_REGCB_CLOUD param0 =   msp_status_cb  param1 =  func(a805e6b0) 
+[2021/12/01 10:58:35 236] isr_1conn  2229 SYS_MSG_REGCB_CLOUD param0 =   cloud_rslt_cb  param1 =  func(a806c920) 
+[2021/12/01 10:58:35 237] isr_1conn  2229 SYS_MSG_REGCB_CLOUD param0 =   cloud_err_cb  param1 =  func(a806ca00) 
+[2021/12/01 10:58:35 237] isr_1conn  2229 SYS_MSG_REGCB_CLOUD param0 =   cloud_status_cb  param1 =  func(a806cae0) 
+[2021/12/01 10:58:35 237] isr_1conn  1411 onesoc  
+[2021/12/01 10:58:35 237] isr_1conn  1412 ASR_CLOUD_MSG_SSB  
+[2021/12/01 10:58:35 237] isr_1conn  1427 isr_1conn  cloud_cisr1PdHHBHJKDMcxwFaaauvh1+aaBDt9P  268436457  1495165873  
+[2021/12/01 10:58:35 237] isr_1conn  1497 req_lgi_id =  nil  
+[2021/12/01 10:58:35 237] isr_1conn  1498 not login!  
+[2021/12/01 10:58:35 237] isr_1conn  1631 nil  
+[2021/12/01 10:58:35 237] isr_1conn  1689 speex-wb  
+[2021/12/01 10:58:35 237] isr_1conn  1767 net_once_bytes  nil  
+[2021/12/01 10:58:35 237] isr_1conn  1772 need_encode  true  
+[2021/12/01 10:58:35 237] isr_1conn  1774 once bytes  122  
+[2021/12/01 10:58:35 238] isr_1conn  1798 User set url is   nil  
+[2021/12/01 10:58:35 238] transport  658  paramkvsport is   nil  
+[2021/12/01 10:58:35 238] transport  666  ns_enable=  1  
+[2021/12/01 10:58:35 238] transport  710  url.full=  nil  
+[2021/12/01 10:58:35 238] transport  898  net type:  standard  
+[2021/12/01 10:58:35 238] transport  899  net operator:  def  
+[2021/12/01 10:58:35 238] transport  900  use proxy:  false  
+[2021/12/01 10:58:35 238] transport  1033 session.domain=  open.xf-yun.com  
+[2021/12/01 10:58:35 238] transport  1034 url.host=  open.xf-yun.com  
+[2021/12/01 10:58:35 239] network    88   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/12/01 10:58:35 239] transport  1068 NAMESERVER START  
+[2021/12/01 10:58:35 239] transport  1071 name =   iat  
+[2021/12/01 10:58:35 239] ns         629  ntt=  standard  
+[2021/12/01 10:58:35 239] transport  1074 trans,ns_inprog =  0  
+[2021/12/01 10:58:35 239] ns         585  name server start  
+[2021/12/01 10:58:35 239] ns         586  ns_sub =   iat  
+[2021/12/01 10:58:35 239] ns         588  ns_host=  open.xf-yun.com  
+[2021/12/01 10:58:35 239] ns         479  ns_host=  open.xf-yun.com  
+[2021/12/01 10:58:35 239] ns         558  GET /sip/resolver?srand=1201105811.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.3&appid=1f6f07b8&operator=UNKNOW&nettype=STANDARD&cver=5.0.33.1158&svc=iat&host=open.xf-yun.com&sign=9a759d3a1006883496201d7cea7734e6
+User-Agent: iFLYCloud
+
+  
+[2021/12/01 10:58:35 239] ns         559  net_type =  standard  
+[2021/12/01 10:58:35 239] ns         560  cmwapascmnet =  
+[2021/12/01 10:58:35 239] ns         561  uniwapasuninet =  
+[2021/12/01 10:58:35 239] ns         562  ctwapasctnet =  
+[2021/12/01 10:58:35 239] ns         579  host=  hdns.openspeech.cn  
+[2021/12/01 10:58:35 239] network    242  gethostbyname  hdns.openspeech.cn  ns1  
+[2021/12/01 10:58:35 434] network    224  dns resp  0  ns1  
+[2021/12/01 10:58:35 436] ns         425  ns dns ok  42.62.116.18  
+[2021/12/01 10:58:35 437] ns         205  iplist not avail  
+[2021/12/01 10:58:35 438] ns         432  is_voicecloud_ip=  0  
+[2021/12/01 10:58:35 439] ns         439  ip_is_expected=  true  
+[2021/12/01 10:58:35 439] ns         447  ip_is_expected=  true  
+[2021/12/01 10:58:35 439] network    423  gethttpresp2  42.62.116.18  80  ns2  
+[2021/12/01 10:58:35 439] network    440  prot_type  tcp  
+[2021/12/01 10:58:35 443] transport  142  [dns] [1] response 59.107.24.5  
+[2021/12/01 10:58:35 443] transport  152  59  107  24  5  
+[2021/12/01 10:58:35 443] transport  203  ipv =  v4  
+[2021/12/01 10:58:35 443] transport  207  dns ip is v4  
+[2021/12/01 10:58:35 443] transport  181  iplist not avail  
+[2021/12/01 10:58:35 444] transport  247  no iplist now  
+[2021/12/01 10:58:35 444] network    93   iptoenv ,  ipcache  open.xf-yun.com  def  59.107.24.5  
+[2021/12/01 10:58:35 446] transport  291  dns cb start conn  
+[2021/12/01 10:58:35 447] transport  1266 [soc] connect   59.107.24.5  80  
+[2021/12/01 10:58:35 447] transport  1283 mspsoc.open,prot_type=  tcp  
+[2021/12/01 10:58:35 475] isr_1conn  1825 ASR_CLOUD_MSG_AUW  3200  1  
+[2021/12/01 10:58:35 475] isr_1conn  1842   ˇˇ  
+[2021/12/01 10:58:35 540] isr_1conn  262  netperf:  94  
+[2021/12/01 10:58:35 633] isr_1conn  1825 ASR_CLOUD_MSG_AUW  3200  2  
+[2021/12/01 10:58:35 636] isr_1conn  1825 ASR_CLOUD_MSG_AUW  3200  2  
+[2021/12/01 10:58:35 694] network    328  connected  ns2  
+[2021/12/01 10:58:35 697] network    331  send ok  271  ns2  
+[2021/12/01 10:58:35 705] transport  476  [soc] [1] connected  
+[2021/12/01 10:58:35 707] isr_1conn  367  transport connect ok  
+[2021/12/01 10:58:35 707] isr_1conn  1118 send ssb request  
+[2021/12/01 10:58:35 707] isr_1conn  833  lver:  nil  
+[2021/12/01 10:58:35 707] isr_1conn  838  cfg_ver:  nil  
+[2021/12/01 10:58:35 708] isr_1conn  859  send_lgi_auth_id =  nil  
+[2021/12/01 10:58:35 708] isr_1conn  1201 [session] send 1th audio  
+[2021/12/01 10:58:35 708] isr_1conn  1203 totalsz =   854  
+[2021/12/01 10:58:35 708] isr_1conn  1206 start netperf_fs_timer  
+[2021/12/01 10:58:35 709] transport  1323 build http request.  
+[2021/12/01 10:58:35 709] transport  1423 POST /msp.do HTTP/1.1
+Host: open.xf-yun.com
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 508
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:183
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=ssb&ssm=1&auf=audio%2FL16%3Brate%3D16000&cver=5%2E0%2E33%2E1158&net%5Ftype=standard&csid=cisr1PdHHBHJKDMcxwFaaauvh1%2BaaBDt9P&key=0c4G4KJ85svIxI17ZYAZfHhA==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+÷
+ﬁ⁄'ÈNâúÖz{zÑxzzáÖ}{  
+[2021/12/01 10:58:35 711] transport  1743 msg:release()  
+[2021/12/01 10:58:35 711] transport  1323 build http request.  
+[2021/12/01 10:58:35 712] transport  1423 POST /msp.do HTTP/1.1
+Host: open.xf-yun.com
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 1103
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:132
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=1&cver=5%2E0%2E33%2E1158&csid=cisr1PdHHBHJKDMcxwFaaauvh1%2BaaBDt9P&key=0cv/3v4xt9ZKtI17ZYAZfHhA==
+----
+CL:864
+CT:audio/L16;rate=16000
+CE:speex-wb,encrypt/0.2
+
+≈÷|™÷f|YŸŸŸŸŸŸŸ±0EEEKnnGu¸¯Y]}ü89≤¡‚ÖZ©´êK¢…ÑúQÅ…—ë°—ÚÊÏ}‘æù.”X∑ıüHüªrT óD| ÊáüπÖ∆”8,óœ_Ú»F—üXÍ¡1]Ò¡1PòVqs˚∂V°r  
+[2021/12/01 10:58:35 714] transport  1743 msg:release()  
+[2021/12/01 10:58:35 714] transport  506  [soc] [1] send ok  681  
+[2021/12/01 10:58:35 714] transport  506  [soc] [1] send ok  1277  
+[2021/12/01 10:58:35 797] isr_1conn  1825 ASR_CLOUD_MSG_AUW  3200  2  
+[2021/12/01 10:58:35 802] isr_1conn  1201 [session] send 2th audio  
+[2021/12/01 10:58:35 802] isr_1conn  1203 totalsz =   366  
+[2021/12/01 10:58:35 802] transport  1323 build http request.  
+[2021/12/01 10:58:35 802] transport  1423 POST /msp.do HTTP/1.1
+Host: open.xf-yun.com
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 615
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:132
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E33%2E1158&csid=cisr1PdHHBHJKDMcxwFaaauvh1%2BaaBDt9P&key=0c0W7NPiyn31BI17ZYAZfHhA==
+----
+CL:376
+CT:audio/L16;rate=16000
+CE:speex-wb,encrypt/0.2
+
+*t$Mû≈¶â[Ï€*∞öÉr«Ël3ÑL^ÆÎ˚–vrlÁeÓÀømriΩ~{…–yqÉG±Å†¶ΩÕ·¡«ÈNyEî·ß¸ò∏¨f|h⁄FÎÒ%ó#_]x9  
+[2021/12/01 10:58:35 804] transport  1743 msg:release()  
+[2021/12/01 10:58:35 804] transport  506  [soc] [1] send ok  788  
+[2021/12/01 10:58:35 904] network    340  readable  ns2  
+[2021/12/01 10:58:35 912] network    344  HTTP/1.1 200 OK
+Date: Wed, 01 Dec 2021 02:58:35 GMT
+Content-Type: application/json
+Content-Length: 308
+Connection: keep-alive
+Server: iflytek/hdns
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"iat","ips":[{"ip":"42.62.116.18","port":80,"idc":"dx"},{"ip":"42.62.116.34","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"iat","ips":[{"ip":"42.62.116.34","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}]}  
+[2021/12/01 10:58:35 915] ns         256  name server http resp  table(a8028eb0) 0  udata(a803c928) 
+[2021/12/01 10:58:35 915] ns         269  ns response OK for this time!  
+[2021/12/01 10:58:35 915] ns         280  from_server=  iflytek/hdns  
+[2021/12/01 10:58:35 917] ns         363  compel :  0  
+[2021/12/01 10:58:35 917] ns         374  tick()=  7880050  
+[2021/12/01 10:58:35 917] ns         378  tick()mod=  7880051  
+[2021/12/01 10:58:35 917] ns         379  ns_host=  open.xf-yun.com  
+[2021/12/01 10:58:35 918] ns         392  ns_host=  open.xf-yun.com  
+[2021/12/01 10:58:35 918] transport  1048 ns_ip =   42.62.116.18  
+[2021/12/01 10:58:35 918] transport  1049 ip_type =  assigned_iatopen.xf-yun.com_host  
+[2021/12/01 10:58:35 918] ns         658  no data in ns_q  
+[2021/12/01 10:58:35 918] ns         659  conti_ns,ns_inprog =   1  
+[2021/12/01 10:58:35 925] transport  518  [soc] [1] readable  
+[2021/12/01 10:58:35 926] transport  1696 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 118
+X-Req-Date: 2021/12/01 10:58:35 791
+CL: 118
+X-Res-Date: 2021/12/01 10:58:35 795
+
+ver=MSSP+0%2E9&ret=10407&cver=5%2E0%2E33%2E1158&key=0dsCqbSDXObcT4Pf92ecYdefNbd^yf50VN1yWq0f4jGKycacJAk0EnHcRy2UNNBzCD  
+[2021/12/01 10:58:35 926] transport  1442 a_complete_httpmessage  200  
+[2021/12/01 10:58:35 926] transport  1552 is_update  true  
+[2021/12/01 10:58:35 926] isr_1conn  399  [trans] [isr_1conncisr1PdHHBHJKDMcxwFaaauvh1+aaBDt9P] readable  
+[2021/12/01 10:58:35 927] isr_1conn  438  MSS:bad response:10407  
+[2021/12/01 10:58:35 927] isr_1conn  441  bad sid =   iat00012dcf@gz17d73edf5805070762  
+[2021/12/01 10:58:35 955] isr_1conn  2034 ASR_CLOUD_MSG_SSE  
+[2021/12/01 10:58:35 957] isr_1conn  1276 isr_1conn session info  
+[2021/12/01 10:58:35 962] isr_1conn  2177 session finished! ret =   10407  

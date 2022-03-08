@@ -5,7 +5,9 @@
 ## 前言
 欢迎使用《ROS机器人开发技术基础》教材，本ROS软件包是教材中代码示例，教材中使用的例子均出自本代码包。除了代码包，教材还提供PPT，欢迎各位朋友下载、学习和分享。
 
-本示例包含了XBot机器人和中科院软件博物馆仿真、ROS通信示例程序、导航与SLAM功能演示，在每个软件包下都有相应的功能介绍。
+本书是内容全面、偏重基础的 ROS 机器人开发入门书籍，是作者总结多年科研教学成果并在吸收国内外最新理论、方法和技术的基础上完成的。本书详细介绍了 ROS 机器人基础和 ROS 常用开发工具，详细讲解了 ROS 系统架构、ROS 客户端库和机器人建模与仿真；以工程开发为重心，详细讲解机器视觉、机器语音、SLAM 和导航等多方面 ROS 应用的实现原理和方法。本书结合大量实例，帮助读者在实现 ROS 基础功能的同时深入理解基于 ROS 的机器人开发技术，将书中的内容用于实践。本书注重运用 CDIO 工程教育理念，立足培养实际动手能力、综合应用能力、创新思维能力。
+
+本示例包含了ROS通信示例程序、ROS客户端库开发实例、机器人建模与仿真案例、机器视觉和机器语音案例、机器人SLAM与导航案例、XBot机器人和中科院软件博物馆仿真、导航与SLAM功能演示等，在每个软件包下都有相应的功能介绍。
 
 ![Gazebo仿真效果](./robot_sim_demo.gif)
 
@@ -29,8 +31,17 @@
 | **urdf_demo** |  创建机器人urdf模型，在RViz中显示  |
 | **navigation_sim_demo** | 导航演示工具包，包括AMCL, Odometry Navigation等演示 |
 | **slam_sim_demo** | 同步定位与建图演示，包括Gmapping, Karto, Hector等SLAM演示 |
-| **robot_orbslam2_demo** | ORB_SLAM2的演示 |
+| **robot_perception** | 机器人感知演示（包括机器语音和视觉） |
 | **ros_academy_for_beginners** | Metapacakge示例，依赖了本仓库所有的pacakge |
+| **apriltags_ros** | 二维码识别演示 |
+| **face_recognize** | 人脸识别演示 |
+| **find_object_2d** | 物体检测演示 |
+| **myrobot_description** | 机器人URDF模型演示 |
+| **myrobot_gazebo** | 机器人gazebo仿真 |
+| **myrobot_teleop** | 机器人控制器 |
+| **orbslam2_demo** | ORB_SLAM2的演示 |
+| **realsense-ros** | 深度相机案例 |
+| **rtabmap_demo** | RTAB-MAP（基于即时外观建图） |
 
 ---
 
@@ -39,7 +50,7 @@
 1. 克隆或下载ROS-Academy-for-Beginners教学包到工作空间的`/src`目录下，例如 `~/catkin_ws/src`
 ```sh
 $ cd ~/catkin_ws/src
-$ git clone https://github.com/DroidAITech/ROS-Academy-for-Beginners.git
+$ git clone https://github.com/ccqjcj/ROS-Academy-for-Beginners.git
 ```
 
 2. 安装教学包所需的依赖
